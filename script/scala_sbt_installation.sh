@@ -20,7 +20,7 @@ echo 'PATH=$SCALA_HOME/bin:$PATH' >> ~/.bashrc
 echo 'export SBT_HOME="~/.sbt/sbt-0.13.12"' >> ~/.bashrc
 echo 'PATH=$SBT_HOME/bin:$PATH' >> ~/.bashrc
 
-exec bash
-
 rm scala-2.11.8.tgz sbt-0.13.12.zip
 rm -rf scala-2.11.8 sbt-0.13.12
+
+exec bash
